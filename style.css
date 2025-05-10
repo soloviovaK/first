@@ -1,3 +1,34 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: pink;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.ring {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ring i {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 6px solid transparent;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
 .ring i:nth-child(1) {
   border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
   animation: animate 6s linear infinite;
@@ -27,6 +58,76 @@
   border: 6px solid yellow;
   filter: drop-shadow(0 0 20px yellow);
 }
-body {
-  background-color: pink;
+
+/* Animation Keyframes */
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Login Form Styles */
+.login {
+  position: absolute;
+  width: 300px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.login h2 {
+  margin: 0 0 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.inputBx {
+  margin: 15px 0;
+}
+
+.inputBx input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.inputBx input[type="submit"] {
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.inputBx input[type="submit"]:hover {
+  background: #555;
+}
+
+.links {
+  margin-top: 10px;
+}
+
+.links a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.links a:hover {
+  text-decoration: underline;
 }
