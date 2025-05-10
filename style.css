@@ -5,7 +5,7 @@
 
 .ring:hover i:nth-child(1) {
   border: 6px solid lawngreen;
-  filter: drop-shadow (0 0 20px lawngreen);
+  filter: drop-shadow(0 0 20px lawngreen);
 }
 
 .ring i:nth-child(2) {
@@ -13,8 +13,8 @@
   animation: animate 4s linear infinite;
 }
 
-.ring:hover i:nth-child(2) {  
+.ring:hover i:nth-child(2) {
   border: 6px solid red;
-  filter: drop-shadow (0 0 20px red);
+  filter: drop-shadow(0 0 20px red);
 }
 
