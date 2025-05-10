@@ -6,7 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: pink;
+  background-color: black;
   font-family: Arial, sans-serif;
   overflow: hidden;
 }
@@ -35,7 +35,7 @@ body {
 }
 
 .ring:hover i:nth-child(1) {
-  border: 6px solid lawngreen;
+  border: 15px solid lawngreen;
   filter: drop-shadow(0 0 20px lawngreen);
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 .ring:hover i:nth-child(2) {
-  border: 6px solid red;
+  border: 15px solid red;
   filter: drop-shadow(0 0 20px red);
 }
 
