@@ -35,7 +35,7 @@ body {
 }
 
 .ring:hover i:nth-child(1) {
-  border: 15px solid lawngreen;
+  border: 6px solid lawngreen;
   filter: drop-shadow(0 0 20px lawngreen);
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 .ring:hover i:nth-child(2) {
-  border: 15px solid red;
+  border: 6px solid red;
   filter: drop-shadow(0 0 20px red);
 }
 
